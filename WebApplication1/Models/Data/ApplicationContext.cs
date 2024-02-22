@@ -4,7 +4,7 @@ using TaskManager.Common.Models;
 
 namespace TaskManagerApi.Models.Data
 {
-    public class ApplicationContext :DbContext
+    public class ApplicationContext :DbContext 
     {
         public DbSet<User> Users { get; set; }
         public DbSet<ProjectAdmin> ProjectAdmins { get; set; }

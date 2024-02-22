@@ -5,7 +5,7 @@ using TaskManagerApi.Models.Abstractions;
 using TaskManagerApi.Models.Data;
 
 #nullable disable
-namespace TaskManagerApi.Models.Services
+namespace TaskManagerApi.Models.Services 
 {
     public class UserService : AbstractionService, ICommonService<UserModel>
 {

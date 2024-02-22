@@ -5,7 +5,7 @@ using TaskManagerApi.Models.Data;
 
 #nullable disable
 namespace TaskManagerApi.Models.Services
-{
+{ 
     public class ProjectService : AbstractionService, ICommonService<ProjectModel>
     {
         private readonly ApplicationContext _db;

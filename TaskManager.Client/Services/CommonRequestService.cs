@@ -11,7 +11,7 @@ namespace TaskManager.Client.Services
 {
     public abstract class CommonRequestService
     {
-        public const string HOST = "http://taskmanagerapi-dev.eba-etmzbemf.eu-central-1.elasticbeanstalk.com/api/";
+        public const string HOST = "api url";
 
         protected async Task<string> GetDataByUrl(string url, AuthToken? token = null, string? username = null, string? password = null)
         {

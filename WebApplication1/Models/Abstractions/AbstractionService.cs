@@ -1,6 +1,6 @@
 ﻿namespace TaskManagerApi.Models.Abstractions
 {
-    public abstract class AbstractionService
+    public abstract class AbstractionService 
     {
         public bool DoAction(Action action)
         {

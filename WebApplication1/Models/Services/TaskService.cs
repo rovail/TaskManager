@@ -7,7 +7,7 @@ using TaskManagerApi.Models.Abstractions;
 using TaskManagerApi.Models.Data;
 
 namespace TaskManagerApi.Models.Services
-{
+{ 
     public class TaskService : AbstractionService, ICommonService<TaskModel>
     {
         private readonly ApplicationContext _db;

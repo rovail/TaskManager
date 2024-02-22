@@ -2,7 +2,7 @@
 
 using TaskManager.Common.Models;
 
-namespace TaskManagerApi.Models
+namespace TaskManagerApi.Models 
 {
     public class Project : CommonObject
     {

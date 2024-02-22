@@ -1,6 +1,6 @@
 ﻿#nullable disable
 
-namespace TaskManagerApi.Models
+namespace TaskManagerApi.Models 
 {
     public class ProjectAdmin
     {

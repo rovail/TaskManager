@@ -3,7 +3,7 @@
 using TaskManager.Common.Models;
 using Newtonsoft.Json;
 
-namespace TaskManagerApi.Models
+namespace TaskManagerApi.Models 
 {
     public class Desk : CommonObject
     {

@@ -5,7 +5,7 @@ using TaskManager.Common.Models;
 
 namespace TaskManagerApi.Models
 {
-    public class Task : CommonObject
+    public class Task : CommonObject 
     {
         public int Id { get; set; }
         public DateTime Startdate { get; set; }
